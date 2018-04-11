@@ -1,0 +1,158 @@
+
+
+/*Common
+********************** */
+
+section{
+	background-color: white;
+	padding: 60px 0;
+    margin-bottom: 15px;
+}
+	section:last-child {
+		margin-bottom: 0 !important;
+	}
+
+body{
+	background-color: black;
+	padding: 15px;
+}
+
+.font-Style{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.all-head-style{
+	font-weight: bold;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+/*body-Feature
+************************/
+
+.image-position{
+	width: 90%;
+	margin: 20px;	
+}
+
+
+.heading-text{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+.span-text-top{
+	color: #696b6e;
+    font-size: 22px;		
+}
+
+.span-text-bottom{
+	color: #696b6e;
+    font-size: 15px;		
+}
+
+
+
+.icon {
+    font-size: 35px;
+    padding-top: 46px;
+    color: #6aa7c5;
+}
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*2nd section
+***********************/
+
+.second-sec-head{
+	font-weight: bold;
+    font-size: 42px;
+    position: relative;
+}
+	.second-sec-head:after {
+		content: " ";
+		position: absolute;
+		width: 100px;
+		height: 5px;
+		top: 60px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		background: #dfe1e5;
+	}
+
+.img-size {
+    width: 95%;
+}
+
+.row.content-align {
+    padding-top: 50px;
+}
+
+.btn-more {
+    width: 40%;
+    border: 2px solid #696b6e;
+    background: transparent;
+    margin-top: 15px; 
+    font-weight: bold;   
+}
+
+.btn-more:hover {
+    width: 40%;
+    border: 2px solid #696b6e;
+    background: #696b6e;
+    margin-top: 15px;
+    color: #fff;    
+}
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		section {
+			background-color: white;
+			padding: 15px 0;
+			margin-bottom: 15px;
+		}
+
+
+		/*2nd section*/
+
+		.btn-more {
+		margin-bottom: 15px;
+		}
+		.span-text-bottom {
+		font-size: 17px;
+		}
+		.row.content-align {
+		padding-top: 0px;
+		}
+		.heading-text {
+		text-align: center;
+		}
+		.second-sec-head {
+		font-size: 30px;
+		}
+		.text-center {
+		padding: 18px 0;
+		}
+
+		.second-sec-head:after {
+		top: 45px;
+		}
+
+    }
+
+   
